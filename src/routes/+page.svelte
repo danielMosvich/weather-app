@@ -8,7 +8,7 @@
 	}
 	function handleKey(event) {
 		if (event.key === 'Enter') {
-			window.location.replace(`http://localhost:5173/${link}`);
+			window.location.replace(`/${link}`);
 		}
 	}
 	onMount(() => {
